@@ -6,6 +6,6 @@ class Solution:
                 map[target - nums[i]] = i
             else:
                 return map[nums[i]], i
-        return None
+        # return None
             
         
