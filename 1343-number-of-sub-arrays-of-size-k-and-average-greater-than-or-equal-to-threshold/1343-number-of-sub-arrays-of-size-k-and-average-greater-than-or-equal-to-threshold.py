@@ -1,5 +1,8 @@
 class Solution:
     def numOfSubarrays(self, arr: List[int], k: int, threshold: int) -> int:
+        
+        ### SLIDING WINDOW PATTERN
+        
         sum = 0
         for i in range(0, k):
             sum += arr[i]
