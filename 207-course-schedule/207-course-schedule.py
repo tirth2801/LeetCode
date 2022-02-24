@@ -1,5 +1,8 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        
+        ### FROM YOUTUBE NEETCODE Channel
+        
         preMap = { i:[] for i in range(numCourses)}
         for course, pre in prerequisites:
             preMap[course].append(pre)
