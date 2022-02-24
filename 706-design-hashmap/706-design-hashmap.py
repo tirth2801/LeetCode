@@ -8,7 +8,7 @@ class MyHashMap:
 
     def get(self, key: int) -> int:
         val = self.data[key]
-        return val if val != None else -1
+        return val if val is not None else -1
 
     def remove(self, key: int) -> None:
         self.data[key] = None
